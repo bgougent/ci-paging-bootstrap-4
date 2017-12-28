@@ -7,7 +7,7 @@ copy <b>pagination.php</b> to <code>application/config/</code>
 <b>Added font-awesome 5 Icons</b><br/>
 Include <a href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" target="_blank" >href="https://use.fontawesome.com/releases/v5.0.2/css/all.css"</a> as style in your webpage.
 
-
+<hr/>
 To test the functionality.Use this part in you controller.
 - change the base_url 
 - change teh view name
