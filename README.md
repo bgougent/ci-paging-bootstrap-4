@@ -22,3 +22,12 @@ $config['per_page'] = 20;
 $this->pagination->initialize($config);
 $data = $this->pagination->create_links();
 $this->load->view('some_view', $data);
+
+
+
+
+
+
+
+
+
