@@ -1,5 +1,4 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-
 /* This Application Must Be Used With BootStrap 4 *  */
 $config['full_tag_open'] 	= '<div class="pagging text-center"><nav><ul class="pagination">';
 $config['full_tag_close'] 	= '</ul></nav></div>';
@@ -16,6 +15,8 @@ $config['first_tagl_close'] = '</span></li>';
 $config['last_tag_open'] 	= '<li class="page-item"><span class="page-link">';
 $config['last_tagl_close'] 	= '</span></li>';
 
-// end of file Pagination.php 
-// Location config/pagination.php 
-// @zulacom
+/*update with icons from Font-awesome*/
+$config['last_link'] = '<i class="fas fa-step-forward"></i>';
+$config['first_link'] = '<i class="fas fa-step-backward"></i>';
+$config['next_link'] = '<i class="fas fa-forward"></i>';
+$config['prev_link'] = '<i class="fas fa-backward"></i>';
