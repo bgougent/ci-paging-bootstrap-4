@@ -9,8 +9,10 @@ Include <a href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" target
 
 <hr/>
 To test the functionality.Use this part in you controller.
+
 - change the base_url 
 - change teh view name
+
 <pre><code>$this->load->library('pagination'); 
 $config['base_url'] = '';
 $config['total_rows'] = 200;
